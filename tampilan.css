@@ -1,0 +1,316 @@
+body{
+	background-color: black;
+	color: green;
+	font-family: sans-serif;
+
+}
+
+.box{
+	text-align: center;
+	width: 500px;
+	height: 300px;
+	display: inline-block;
+	border-bottom: 3px solid darkgreen;
+	float: left;
+	background-color: black;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.box:hover{
+	background-color: ghostwhite;
+}
+
+.box2{
+	text-align: center;
+	width: 500px;
+	height: 350px;
+	display: inline-block;
+	border-bottom: 3px solid darkgreen;
+	float: left;
+	background-color: black;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+
+.box2:hover{
+	background-color: ghostwhite;
+}
+
+h3{
+	background-color: darkgreen;
+	color: ghostwhite;
+	padding: 10px;
+	margin-top: 0px;
+}
+
+.input{
+	width: 97%;
+	height: 30px;
+	background-color: ghostwhite;
+	margin-bottom: 15px;
+	float: center;
+}
+
+.green{
+	background-color: darkgreen;
+	float: center;
+	color: silver;
+	font-family: sans-serif;
+	border-radius: 5px;
+	padding: 10px;
+	width: 100px;
+	text-decoration: none;
+}
+
+.green:hover{
+	background-color: lime;
+	color: darkgreen;
+}
+
+.reg{
+	color: gray;
+	text-decoration: none;
+}
+
+.reg:hover{
+	color: red;
+}
+
+/*market.php*/
+.barang{
+	width: 100%;
+	height: 1230px;
+	background-color: none;
+	border: 3px solid ghostwhite;
+	display: inline-block;
+	color: ghostwhite;
+	margin-top: 10px;
+	border-top-color: darkgreen;
+	border-left-color: darkred;
+	border-right-color: darkred;
+	float: left;
+}
+
+.akun{
+	width: 100%;
+	background-color: none;
+	border: 3px solid ghostwhite;
+	display: inline-block;
+	color: ghostwhite;
+	margin-top: 10px;
+	border-top-color: darkgreen;
+	border-left-color: darkred;
+	border-right-color: darkred;
+	float: left;
+}
+
+.b{
+	text-align: center;
+}
+
+.kotak{
+	width: 210px;
+	height: 530px;
+	float: left;
+	border: 2px solid ghostwhite;
+	display: inline-block;
+	margin: 10px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.brg{
+	height: 484px;
+}
+
+.kode_barang{
+	background-color: darkgreen;
+	color: ghostwhite;
+	font-family: sans-serif;
+	padding: 5px;
+	margin-top: 0px;
+}
+
+img{
+	width: 200px;
+	height: 300px;
+	border-radius: 10px;
+}
+
+.nama_barang{
+	background-color: darkgreen;
+	color: ghostwhite;
+	font-family: sans-serif;
+	padding: 5px;
+	
+}
+
+.harga{
+	background-color: darkgreen;
+	color: ghostwhite;
+	font-family: sans-serif;
+	padding: 5px;
+}
+
+.red{
+	background-color: darkred;
+	color: silver;
+	font-family: sans-serif;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.red:hover{
+	background-color: red;
+	color: darkred;
+}
+
+.blue{
+	background-color: darkblue;
+	color: silver;
+	font-family: sans-serif;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.blue:hover{
+	background-color: blue;
+	color: darkblue;
+}
+
+h4{
+	text-align: left;
+	font-family: sans-serif;
+	padding: 5px;
+	color: ghostwhite;
+	margin-bottom: 40px;
+
+}
+
+.kat{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+	float: left;
+}
+
+
+/*header*/
+h2{
+	color: ghostwhite;
+	margin-bottom: 50px;
+	font-family: sans-serif;
+	text-shadow: 2px 1px 2px;
+	margin-left: 10px;
+}
+
+nav{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	margin-top: -43px;
+}
+
+nav ul{
+	width: 100%;
+	background-color: black;
+	display: inline-table;
+	position: relative;
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li{
+	float: left;
+	padding-right: 10px;
+	padding-left: 10px;
+	margin-bottom: -15px;
+}
+
+nav ul li:hover{
+	background-color: silver;
+}
+
+nav ul li a{
+	display: block;
+	color: green;
+	padding: 10px;
+	text-decoration: none;
+}
+
+.foto{
+	float: right;
+	border: 3px solid darkgreen;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
+}
+
+.nama{
+	text-align: right;
+	margin-right: 70px;
+}
+
+/*footer*/
+.footer{
+	background-color: darkgreen;
+	width: 100%;
+	height: 50px;
+	position: relative;
+
+}
+
+/*profile*/
+.pp{
+	border: 5px solid darkgreen;
+	border-radius: 130px;
+	width: 250px;
+	height: 250px;
+	
+}
+
+/*user*/
+table{
+	width: 100%;
+	margin-top: 30px;
+}
+
+th{
+	background-color: green;
+	color: black;
+	padding: 15px;
+}
+
+tr{
+	background-color: black;
+}
+
+tr:nth-child(2n+0){
+	background-color: black;
+}
+
+td{
+	height: 50px;
+	padding: 10px;
+	color: ghostwhite;
+}
+
+/*barang*/
+h5{
+	color: ghostwhite;
+	text-align: center;
+}
+
+/*beli barang*/
+.beli_barang{
+	width: 30%;
+	padding: 10px;
+}
+
+.ubah_barang{
+	width: 30%;
+	padding: 8px;
+}
